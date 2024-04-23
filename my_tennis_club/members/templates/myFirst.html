@@ -1,0 +1,52 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Django</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+        .message {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        h1 {
+            color: #333333;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666666;
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+        .bear {
+            position: absolute;
+            bottom: 0px;
+            left: calc(50% - 50px);
+            animation: bearWalk 4s infinite linear;
+        }
+        @keyframes bearWalk {
+            0% { transform: translateX(-100px); }
+            50% { transform: translateX(100px); }
+            100% { transform: translateX(-100px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h1>Welcome to Django</h1>
+        <p>You've just entered the world of Django. Get ready to build amazing web applications!</p>
+        
+    </div>
+<img class="bear" src="https://media.giphy.com/media/1Nk9bI3Axt2nm/giphy.gif" alt="Walking Bear">
+</body>
+</html>
+
